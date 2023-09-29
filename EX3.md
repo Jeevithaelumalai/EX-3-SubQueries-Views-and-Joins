@@ -69,45 +69,57 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/76257329-c37b-45c6-b566-08cf46bb569b)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/a6630307-26bc-486c-9957-11228cde4358)
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/051cd728-83e2-42eb-a92e-53813cd6a11f)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/c760b2a2-d01a-4eb5-ba58-0efe5234266d)
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/1748ae78-d501-4e2b-8d66-999567cbd752)
 
 
 ### OUTPUT:
 
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/fd8d7622-04c1-4465-b4b6-a13b518541a8)
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/902aa3e7-c3db-4903-81a5-c998e2b380af)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/d616d8c1-4a0a-45b9-9c3e-3237aa8a30fe)
 
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/bd45fac3-0c35-4cf4-ab5d-e20873a282d3)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/e5b5e999-d264-4c29-aedd-166ce583d0df)
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
 
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/2265aee4-55ef-421f-be72-deb9384bb204)
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/2d3e7482-4adf-48ae-96aa-3c3aa032ff11)
 
 ## Create a Customer1 Table
 ```sql
@@ -140,28 +152,43 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/8c0e1a09-1c8a-43de-9fb0-96a8cbe82c31)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/6b8c6a1c-bf98-419b-8ec6-2abe198596f8)
+
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/6d4b1a7b-255f-45d7-8ed3-5c66954eed94)
 
 
 ### OUTPUT:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/408a2fac-87d5-4561-90e8-7c12cbe7d4a5)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
 
-
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/ec16d2d1-8657-4d0f-98c0-71667c3bd6a7)
 ### OUTPUT:
-
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/8745edec-7338-4d22-8621-a4bea2bd3b5b)
 ### Q10) Perform Left and right join on both tables
-
 ### QUERY:
+#### Left Join:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/b1878d47-e271-48ea-bf85-9ce7a6c3b686)
+####Right Join:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/a61c87fd-745b-4e7b-b9cb-ab9af97fa300)
+
 
 
 ### OUTPUT:
+#### Left Join:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/0bd19bfe-ce5d-4edb-8bda-e99baeeed654)
+
+#### RIGHT Join:
+![image](https://github.com/Jeevithaelumalai/EX-3-SubQueries-Views-and-Joins/assets/118708245/4a288f12-60ab-42a7-bef3-b825fb86db3c)
+
